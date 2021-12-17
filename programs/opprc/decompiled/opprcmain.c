@@ -5,6 +5,7 @@ uint32_t opprcmain (void) {
 	const char * var_8h;
 	int32_t var_ch;
 	/* opprcmain() */
+	// ebp is /dev/res
 	eax = open (ebp, 2);
 	*(gfd) = eax;
 	if (eax < 0) {
